@@ -1,0 +1,87 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background-color: rgb(178, 67, 223);
+    background-blend-mode:multiply;
+    opacity: .7;
+    overflow: -moz-scrollbars-horizontal;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: rgba(190, 100, 226, 0.7)  url("/assets/graphs/csillagos_eg.png");
+	-webkit-animation: 60s infinite linear alternate-reverse slideCsuszas;
+	-moz-animation: 60s infinite linear alternate-reverse slideCsuszas;
+	-ms-animation: 60s infinite linear alternate-reverse slideCsuszas;
+	-o-animation: 60s infinite linear alternate-reverse slideCsuszas;
+	animation: 60s  infinite linear alternate-reverse slideCsuszas;
+    color: azure;
+ 
+}
+ 
+@-webkit-keyframes slideCsuszas {
+	0% {
+      transform: scale(1) translateY(0);
+      transform-origin: 50% 84%;
+    }
+  
+    100% {
+      transform: scale(1.5) translateY(15px);
+      transform-origin: bottom;
+    }
+}
+ 
+@-moz-keyframes slideCsuszas {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes slideCsuszas {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes slideCsuszas {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes slideCsuszas {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+
+
+
+
+/*    -----------------------------    */
+
+.toptabla{	
+	height: auto;
+	margin: 0.4em auto;	
+	padding: 0.4em;
+	background: transparent;
+	text-align: center;
+	color: #FFF;
+	/*border: 0.25em solid rgb(71, 26, 129);*/
+	background-color: rgba(37, 9, 65, 0.7);
+	border-radius: 1em;
+	font-size: 1.4em;
+    font-family: "Raleway", sans-serif;
+   
+}
+
+table{
+    padding-left: 2em;
+    width: 50%;
+    table-layout: fixed;
+    margin: 0.6em auto;
+    text-align: center;
+}
+
+
+
+
